@@ -3,4 +3,4 @@
 # Fail on any error.
 set -e
 
-go build -o hello_world .
+go build -buildvcs=false -o hello_world .
